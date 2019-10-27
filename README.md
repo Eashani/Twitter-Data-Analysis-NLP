@@ -6,7 +6,7 @@ This is a dockerized dev env created to ensure smooth collaboration over the cou
 
 The given `Dockerfile` specifies the structure of the image created. Please try NOT to create any files outside the included `shared` dir.
 
-Please follow the Build and Run steps below and you'll have the `Jupyter` notebook accessible at **localhost:9999**.
+Please follow the Build and Run steps below and you'll have the `Jupyter` notebook accessible at **localhost:9999**. You will run these command in the same dir (`nlp19`) where the `Dockerfile` is.
 
 ## Build
 
