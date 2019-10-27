@@ -9,7 +9,7 @@ WORKDIR /src
 COPY . .
 
 # packages needed for SPEEDY and some other python packages
-RUN set -ex && apt-get update && pip install jupyter nltk
+RUN set -ex && apt-get update && pip install jupyter nltk tweepy matplotlib
 
 
 # starts a jupyter notebook
