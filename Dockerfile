@@ -9,7 +9,7 @@ WORKDIR /src
 
 # Copies any optional files/dirs to the container
 # currently it's just the contents of the nlp19 dir
-COPY /shared .
+COPY /shared /shared
 
 # update source dirs and install the python packages we'll potentially need
 RUN set -ex && apt-get update && pip install jupyter nltk tweepy matplotlib
