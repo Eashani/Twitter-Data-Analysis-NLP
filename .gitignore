@@ -1,6 +1,7 @@
 #extra
 /shared/hide.txt
-script.sh
+*.sh
+*.list
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
