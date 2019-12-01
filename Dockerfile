@@ -9,7 +9,7 @@ MAINTAINER Naveed Tahir <naveedtahir@live.com>
 COPY /shared /shared
 
 # update source dirs and install the python packages we'll potentially need
-RUN set -ex && apt-get update && pip install jupyter nltk tweepy matplotlib
+RUN set -ex && apt-get update && pip install jupyter nltk tweepy matplotlib pandas emoji wordcloud gensim pyLDAvis
 
 
 # set the workdir in the container

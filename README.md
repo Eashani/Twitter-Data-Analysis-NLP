@@ -37,7 +37,7 @@ This commands creates a conda env and installs packages needed for the project. 
 
 In the `shared` dir, issue the following command:
 
-`conda create -y -c conda-forge --name any_name jupyter matplotlib tweepy`
+`conda create -y -c conda-forge --name any_name jupyter matplotlib tweepy pandas emoji wordcloud gensim pyLDAvis`
 
 You will use this command if you are creating or modifying (more packages) the `any_name` env.
 
